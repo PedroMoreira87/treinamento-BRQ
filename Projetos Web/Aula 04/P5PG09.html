@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/P5PG09.css" type="text/css">
+    <title>P5PG09</title>
+</head>
+<body>
+	<form method="post" align="center">
+		<table border="1" cellpadding="10" cellspacing="0" align="center">
+            <caption>Cadastro de Pagamento</caption>
+			<tr>
+	            <td>Nome</td>
+			    <td><input id="name" name="name" type="text" maxlength="20"/></td>
+			</tr>
+			<tr>
+	            <td>Senha</td>
+			    <td><input id="password" name="password" type="password"/></td>
+		    </tr>
+			<tr>
+		        <td>CPF</td>
+			    <td><input id="cpf" name="cpf" type="number"></td>
+			</tr>
+			<tr>
+			   <td>RG</td>
+			   <td><input id="rg" name="rg" type="number"></td>
+			</tr>
+			<tr>
+				<td>Cartão</td>
+                <td>
+                    <input name="cartao" type="radio" value="master" checked> Master 
+                    <input name="cartao" type="radio" value="visa"> Visa
+                </td>
+			</tr>
+			
+			<tr>
+				<td>UF</td>
+				<td><select name="uf">
+                        <option>PR
+						<option>SP
+						<option>RJ
+				    </select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Confirma!"></td>
+			</tr>
+			<tr>
+				<td>Outros usados também</td>
+				<td>
+					<input type="button" value="Botão!">
+					<input type="reset">
+				</td>
+			</tr>
+			   
+		</table>		
+	</form>
+</body>
+</html>

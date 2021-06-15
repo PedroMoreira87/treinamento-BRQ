@@ -1,0 +1,33 @@
+button {
+    border: none;
+    background-color: #17007e;
+    color: #ffffff;
+    border-radius: 0.3rem;
+    padding: 0.8rem;
+    width: 6rem;
+    margin: 3rem auto;
+    font-size: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #1100ff;
+}
+
+div {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.field {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.year {
+    padding: 0.5rem;
+}
+
+img {
+    width: 30rem;
+}

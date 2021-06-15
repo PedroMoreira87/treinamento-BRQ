@@ -1,0 +1,46 @@
+button {
+    border: none;
+    background-color: #17007e;
+    color: #ffffff;
+    border-radius: 0.3rem;
+    padding: 0.8rem;
+    width: 6rem;
+    margin: 3rem auto;
+    font-size: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #1100ff;
+}
+
+.main-text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.field {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.input {
+    padding: 0.5rem;
+}
+
+table, th, td {
+    text-align: center;
+    border-collapse: collapse;
+    border: 0.1rem solid #000000;
+    margin-left: 6rem;
+    padding: 0.1rem 1rem 0.1rem 1rem;
+  }
+
+img {
+    display: block;
+    margin: auto;
+    width: 25rem;
+}
